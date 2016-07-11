@@ -2,7 +2,7 @@
 
 ## View HTML files directly from GitHub
 
-Using rawgit.com: Replace `raw.githubusercontent.com` with `rawgit.com` in the GitHub raw file URL.
+Use rawgit.com: Replace `raw.githubusercontent.com` with `rawgit.com` in the GitHub raw file URL.
 ```
 # GitHub raw file URL structure
 https://raw.githubusercontent.com/[user]/[repository]/[branch]/[filename.ext]
@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/vikash-india/MathematicsNotes2Myself/master/ma
 https://rawgit.com/vikash-india/MathematicsNotes2Myself/master/mathematics/concrete_mathematics/P000_Template.html
 ```
 
-Using htmlpreview.github.com: Prefix `http://htmlpreview.github.com/?` to any GitHub HTML file URL.
+Use htmlpreview.github.com: Prefix `http://htmlpreview.github.com/?` to any GitHub HTML file URL.
 ```
 # Example github URL
 https://github.com/vikash-india/MathematicsNotes2Myself/blob/master/mathematics/concrete_mathematics/P000_Template.html
