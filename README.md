@@ -1,24 +1,24 @@
 # Mathematics Notes 2 Myself
 
-## View HTML Files Directly From Github
+## View HTML files directly from GitHub
 
-Using rawgit.com: Replace `raw.githubusercontent.com` with `rawgit.com` in the GitHub Raw URL.
+Using rawgit.com: Replace `raw.githubusercontent.com` with `rawgit.com` in the GitHub raw file URL.
 ```
-# GitHub Raw URL Structure
+# GitHub raw file URL structure
 https://raw.githubusercontent.com/[user]/[repository]/[branch]/[filename.ext]
 
-# Example GitHub URL
+# Example github URL
 https://raw.githubusercontent.com/vikash-india/MathematicsNotes2Myself/master/mathematics/concrete_mathematics/P000_Template.html
 
-# Example Raw Git URL
+# Example rawgit URL
 https://rawgit.com/vikash-india/MathematicsNotes2Myself/master/mathematics/concrete_mathematics/P000_Template.html
 ```
 
-Using htmlpreview.github.com: Prefix `http://htmlpreview.github.com/?` to the GitHub HTML File URL.
+Using htmlpreview.github.com: Prefix `http://htmlpreview.github.com/?` to any GitHub HTML file URL.
 ```
-# GitHub URL
+# Example github URL
 https://github.com/vikash-india/MathematicsNotes2Myself/blob/master/mathematics/concrete_mathematics/P000_Template.html
 
-# HTML Preview URL
+# Example htmlpreview URL
 http://htmlpreview.github.com/?https://github.com/vikash-india/MathematicsNotes2Myself/blob/master/mathematics/concrete_mathematics/P000_Template.html
 ```
