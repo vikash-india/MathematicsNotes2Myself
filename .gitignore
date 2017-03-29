@@ -6,3 +6,8 @@
 # Ignore RStudio project files
 MathematicsNotes2Myself.Rproj
 .Rproj.user
+.RData
+.Rhistory
+.Rprofile
+packrat/lib*/
+packrat/src/
