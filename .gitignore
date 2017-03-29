@@ -2,3 +2,6 @@
 
 # Ignore IntelliJ project files
 .idea/
+
+# Ignore RStudio project files
+.Rproj.user
