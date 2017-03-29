@@ -4,4 +4,5 @@
 .idea/
 
 # Ignore RStudio project files
+MathematicsNotes2Myself.Rproj
 .Rproj.user
