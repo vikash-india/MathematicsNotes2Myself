@@ -5,7 +5,7 @@
   operations and functions. If the commutative property holds for a pair of elements under a certain binary operation 
   then the two elements are said to commute under that operation. 
 - Mathematical Definition: A binary operation * on a set S is called commutative if
-![Commutative Addition](P006_x_Equation_01_CommutativeAddition.png)
+![Commutative Addition](../../code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
 - An operation that does not satisfy the above property is called non-commutative.
 
 ### Commutative Property of Addition
