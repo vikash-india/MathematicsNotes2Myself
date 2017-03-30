@@ -4,15 +4,15 @@
 ### Write Here
 - Write here
 - Write more here
-- ![Equation Inline Image](../../code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
+- ![Equation Inline Image](../../code/latex/images/P001_Algebra_CommutativeProperty_01_Addition.png)
 
 ## Number Charts
 * [None](https://www.brainyquote.com/photos_tr/en/a/alberteinstein/106697/alberteinstein1.jpg)
 
 ## Code
-* [Octave Code](#0)
-* [Python Code](#0)
-* [R Code](#0)
+* Octave Code: [None](#0)
+* Python Code: [None](#0)
+* R Code: [None](#0)
 
 ## TODO
 - None
