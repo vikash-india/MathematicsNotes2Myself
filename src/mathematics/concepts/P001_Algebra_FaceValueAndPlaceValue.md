@@ -1,5 +1,6 @@
 # Description: Algebra - Face Value and Place Value
 
+## Concepts
 ### Face Value
 - The face value of a digit for any place in the given number is the value of the digit itself.
 - Example: The face value of 2 in the number 7229 is always 2 irrespective of its place in the number.
@@ -24,5 +25,13 @@
 - The written form is a way to write numbers using only words. 
 - Example: The number 7229 in written form is seven thousand, two hundred twenty-nine. 
 
-### TODO
+## Number Charts
+* [None](#0)
+
+## Code
+* Octave Code: [None](#0)
+* Python Code: [None](#0)
+* R Code: [None](#0)
+
+## TODO
 - None
