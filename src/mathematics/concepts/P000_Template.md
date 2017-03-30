@@ -2,16 +2,16 @@
 
 ### Write Here
 - Write here
-![Inline Image](/src/code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
+- An equation
+- ![Inline Image](/src/code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
 
-### Charts
-* [Fraction & Percentages](#0)
-* [None]()
+### Number Charts
+* [None](#0)
 
 ### Sample Code
-* [Octave Code]()
-* [Python Code]()
-* [R Code]()
+* [Octave Code](#0)
+* [Python Code](#0)
+* [R Code](#0)
 
 ### TODO
 - None
