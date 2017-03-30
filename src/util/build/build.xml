@@ -1,0 +1,27 @@
+<project name="MathematicsNotes2Myself"
+         default="build"
+         basedir="/home/vikash/Personal/Workspace/MathematicsNotes2Myself/">
+
+    <description>Convert LaTeX equations to images</description>
+
+    <property file="${basedir}/src/util/build/build.properties"/>
+
+    <target name="build">
+        <apply executable="tex2im" failonerror="true" dir="${latex.dir}" parallel="true">
+            <fileset dir="${latex.dir}">
+                <include name="**/*.tex"/>
+                <exclude name="**/*Template*"/>
+            </fileset>
+            <mapper type="regexp"
+                    from="(.*)\.tex"
+                    to="${latex.target.dir}/\1.png"/>
+        </apply>
+    </target>
+
+    <target name="clean">
+        <delete>
+            <fileset dir="${latex.dir}" includes="**/*.png"/>
+        </delete>
+    </target>
+</project>
+
