@@ -7,7 +7,10 @@
     <property file="${basedir}/src/util/build/build.properties"/>
 
     <target name="build">
-        <apply executable="tex2im" failonerror="true" dir="${latex.dir}" parallel="true">
+        <apply executable="tex2im" failonerror="true" dir="${latex.dir}">
+            <arg value="-o"/>
+            <targetfile/>
+
             <fileset dir="${latex.dir}">
                 <include name="**/*.tex"/>
                 <exclude name="**/*Template*"/>
@@ -20,7 +23,7 @@
 
     <target name="clean">
         <delete>
-            <fileset dir="${latex.dir}" includes="**/*.png"/>
+            <fileset dir="${latex.target.dir}" includes="**/*.png"/>
         </delete>
     </target>
 </project>
