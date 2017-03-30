@@ -2,11 +2,11 @@
 
 ### Write Here
 - Write here
-- An equation
-- ![Inline Image](/src/code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
+- Write more here
+- ![Equation Inline Image](/src/code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
 
 ### Number Charts
-* [None](/src/mathematics/charts/images/#0)
+* [None](/src/mathematics/charts/images/mathematics.jpg)
 
 ### Sample Code
 * [Octave Code](#0)
