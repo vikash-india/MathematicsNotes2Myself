@@ -5,7 +5,7 @@
 ![Inline Image](/src/code/latex/images/P006_x_Equation_01_CommutativeAddition.png)
 
 ### Charts
-* [Fraction & Percentages](#)
+* [Fraction & Percentages](#0)
 * [None]()
 
 ### Sample Code
