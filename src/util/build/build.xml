@@ -14,37 +14,49 @@
             depends="build.latex, build.charts"
             description="Convert LaTeX equations and charts code to images."/>
 
-    <target name="build.latex"
-            description="Convert LaTeX equations code to images.">
-        <apply executable="tex2im" failonerror="true" dir="${latex.dir}">
-            <arg value="-o"/>
-            <targetfile/>
-
-            <fileset dir="${latex.dir}">
-                <include name="**/*.tex"/>
-                <exclude name="**/*Template*"/>
-            </fileset>
-            <mapper type="regexp"
-                    from="(.*)\.tex"
-                    to="${latex.target.dir}/\1.png"/>
-        </apply>
-    </target>
-
-    <target name="build.charts"
-            description="Convert LaTeX charts code to images."/>
-
     <target name="clean.latex"
             description="Clean equations images.">
         <delete>
-            <fileset dir="${latex.target.dir}" includes="**/*.png"/>
+            <fileset dir="${latex.equations.target.dir}" includes="**/*.png"/>
         </delete>
     </target>
 
     <target name="clean.charts"
             description="Clean charts images.">
         <delete>
-            <fileset dir="${latex.target.dir}" includes="**/*.png"/>
+            <fileset dir="${latex.charts.target.dir}" includes="**/*.png"/>
         </delete>
     </target>
 
+    <target name="build.latex"
+            description="Convert LaTeX equations code to images.">
+        <apply executable="tex2im" failonerror="true" dir="${latex.equations.src.dir}">
+            <arg value="-o"/>
+            <targetfile/>
+
+            <fileset dir="${latex.equations.src.dir}">
+                <include name="**/*.tex"/>
+                <exclude name="**/*Template*"/>
+            </fileset>
+            <mapper type="regexp"
+                    from="(.*)\.tex"
+                    to="${latex.equations.target.dir}/\1.png"/>
+        </apply>
+    </target>
+
+    <target name="build.charts"
+            description="Convert LaTeX charts code to images.">
+        <apply executable="tex2im" failonerror="true" dir="${latex.charts.src.dir}">
+            <arg value="-o"/>
+            <targetfile/>
+
+            <fileset dir="${latex.charts.src.dir}">
+                <include name="**/*.tex"/>
+                <exclude name="**/*Template*"/>
+            </fileset>
+            <mapper type="regexp"
+                    from="(.*)\.tex"
+                    to="${latex.charts.target.dir}/\1.png"/>
+        </apply>
+    </target>
 </project>
