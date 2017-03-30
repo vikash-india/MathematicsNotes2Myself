@@ -2,11 +2,20 @@
          default="build"
          basedir="/home/vikash/Personal/Workspace/MathematicsNotes2Myself/">
 
-    <description>Convert LaTeX equations to images</description>
+    <description>Convert LaTeX code to images</description>
 
     <property file="${basedir}/src/util/build/build.properties"/>
 
-    <target name="build">
+    <target name="clean"
+            depends="clean.latex, clean.charts"
+            description="Clean equations and charts images."/>
+
+    <target name="build"
+            depends="build.latex, build.charts"
+            description="Convert LaTeX equations and charts code to images."/>
+
+    <target name="build.latex"
+            description="Convert LaTeX equations code to images.">
         <apply executable="tex2im" failonerror="true" dir="${latex.dir}">
             <arg value="-o"/>
             <targetfile/>
@@ -21,10 +30,21 @@
         </apply>
     </target>
 
-    <target name="clean">
+    <target name="build.charts"
+            description="Convert LaTeX charts code to images."/>
+
+    <target name="clean.latex"
+            description="Clean equations images.">
         <delete>
             <fileset dir="${latex.target.dir}" includes="**/*.png"/>
         </delete>
     </target>
-</project>
 
+    <target name="clean.charts"
+            description="Clean charts images.">
+        <delete>
+            <fileset dir="${latex.target.dir}" includes="**/*.png"/>
+        </delete>
+    </target>
+
+</project>
