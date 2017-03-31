@@ -7,12 +7,12 @@
     <property file="${basedir}/src/util/build/build.properties"/>
 
     <target name="clean"
-            depends="clean.latex, clean.charts"
-            description="Clean equations and charts images."/>
+            depends="clean.latex, clean.numbers"
+            description="Clean equations and numbers images."/>
 
     <target name="build"
-            depends="build.latex, build.charts"
-            description="Convert LaTeX equations and charts code to images."/>
+            depends="build.latex, build.numbers"
+            description="Convert LaTeX equations and numbers code to images."/>
 
     <target name="clean.latex"
             description="Clean equations images.">
@@ -21,10 +21,10 @@
         </delete>
     </target>
 
-    <target name="clean.charts"
-            description="Clean charts images.">
+    <target name="clean.numbers"
+            description="Clean numbers images.">
         <delete>
-            <fileset dir="${latex.charts.target.dir}" includes="**/*.png"/>
+            <fileset dir="${latex.numbers.target.dir}" includes="**/*.png"/>
         </delete>
     </target>
 
@@ -44,19 +44,19 @@
         </apply>
     </target>
 
-    <target name="build.charts"
-            description="Convert LaTeX charts code to images.">
-        <apply executable="tex2im" failonerror="true" dir="${latex.charts.src.dir}">
+    <target name="build.numbers"
+            description="Convert LaTeX numbers code to images.">
+        <apply executable="tex2im" failonerror="true" dir="${latex.numbers.src.dir}">
             <arg value="-o"/>
             <targetfile/>
 
-            <fileset dir="${latex.charts.src.dir}">
+            <fileset dir="${latex.numbers.src.dir}">
                 <include name="**/*.tex"/>
                 <exclude name="**/*Template*"/>
             </fileset>
             <mapper type="regexp"
                     from="(.*)\.tex"
-                    to="${latex.charts.target.dir}/\1.png"/>
+                    to="${latex.numbers.target.dir}/\1.png"/>
         </apply>
     </target>
 </project>
