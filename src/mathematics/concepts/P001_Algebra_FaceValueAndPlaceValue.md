@@ -20,18 +20,26 @@
 ### Expanded Form 
 - Expanded form is a way to write a number by adding the value of its digits. 
 - Example: The number 7229 in expanded form is 7000 + 200 + 20 + 9.
+- Reorganising Numbers
+    - Any number can be reorganised in a number of ways. 
+    - The number 692 can be expressed as follows
+        - 6 Hundreds + 9 Tens + 2 Ones
+        - 5 Hundreds + 19 Tens + 2 Ones
+        - 4 Hundreds + 29 Tens + 2 Ones
+        - 4 Hundreds + 28 Tens + 12 Ones
 
 ### Written Form
 - The written form is a way to write numbers using only words. 
 - Example: The number 7229 in written form is seven thousand, two hundred twenty-nine. 
 
 ## Number Charts
-* [None](#0)
+* None
 
 ## Code
-* Octave Code: [None](#0)
-* Python Code: [None](#0)
-* R Code: [None](#0)
+* Octave Code: None
+* Python Code: None
+* R Code: None
 
 ## TODO
-- None
+- Program to write a number in written form.
+- Program to write a number in expanded form.
