@@ -4,8 +4,10 @@
 ### Identity Element
 Let (S, ∗) is a set S with a binary operation ∗ on it. Then 
 - An element e of S is called a left identity if
+
     ![Left Identity](../../code/latex/equations/images/P007_Algebra_IdentityElement_01_LeftIdentity.png)
 - An element e of S is called a right identity if
+
     ![Right Identity](../../code/latex/equations/images/P007_Algebra_IdentityElement_02_RightIdentity.png)
 - An element e of S is called a identity if e is both a left identity and a right identity.
 
@@ -23,11 +25,9 @@ Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 * None
 
 ## Code
-* Octave Code: None
-* Python Code: None
-* R Code: None
+* Octave Code: [Identity Element](../../code/octave/P002_Algebra_IndentityElement.m)
+* Python Code: [Identity Element](../../code/python/P002_Algebra_IndentityElement.py)
+* R Code: [Identity Element](../../code/r/P002_Algebra_IndentityElement.R)
 
 ## TODO
 - None
-
-

@@ -4,8 +4,10 @@
 ### Inverse Element
 Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 - An element e of S is called an left inverse of b if
+
     ![Left Inverse](../../code/latex/equations/images/P008_Algebra_InverseElement_01_LeftInverse.png)
 - An element e of S is called an right inverse of a if
+
     ![Right Inverse](../../code/latex/equations/images/P008_Algebra_InverseElement_02_RightInverse.png)
 - If an element x is both a left inverse and a right inverse of y, then x is called a two-sided inverse, or simply 
   an inverse, of y. 
@@ -26,9 +28,9 @@ Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 * None
 
 ## Code
-* Octave Code: None
-* Python Code: None
-* R Code: None
+* Octave Code: [Inverse Element](../../code/octave/P003_Algebra_InverseElement.m)
+* Python Code: [Inverse Element](../../code/python/P003_Algebra_InverseElement.py)
+* R Code: [Inverse Element](../../code/r/P003_Algebra_InverseElement.R)
 
 ## TODO
 - None
