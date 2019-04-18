@@ -13,10 +13,13 @@ It also contains relevant code in following languages,
 3. Octave
 4. LaTeX for Typesetting Equations
 
-Mathematics References
-======================
+Mathematics & Statistics References
+===================================
 * [Mathematics References](MathematicsReferences.md)
+* [Mathematics Terminologies](MathematicsTerminologies.md)
 
+Miscellaneous
+=============
 ### Render HTML Files Directly from GitHub Repository
 Use rawgit.com
 ```
