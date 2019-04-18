@@ -28,9 +28,9 @@ Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 * None
 
 ## Code
-* Octave Code: [Inverse Element](../../code/octave/P003_Algebra_InverseElement.m)
-* Python Code: [Inverse Element](../../code/python/P003_Algebra_InverseElement.py)
-* R Code: [Inverse Element](../../code/r/P003_Algebra_InverseElement.R)
+* Octave Code: [Inverse Element](../../code/octave/P008_Algebra_InverseElement.m)
+* Python Code: [Inverse Element](../../code/python/P008_Algebra_InverseElement.py)
+* R Code: [Inverse Element](../../code/r/P008_Algebra_InverseElement.R)
 
 ## TODO
 * None

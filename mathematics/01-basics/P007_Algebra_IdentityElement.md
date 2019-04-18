@@ -26,8 +26,8 @@ Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 
 ## Code
 * Octave Code: [Identity Element](../../code/octave/P002_Algebra_IndentityElement.m)
-* Python Code: [Identity Element](../../code/python/P002_Algebra_IndentityElement.py)
-* R Code: [Identity Element](../../code/r/P002_Algebra_IndentityElement.R)
+* Python Code: [Identity Element](../../code/python/P007_Algebra_IndentityElement.py)
+* R Code: [Identity Element](../../code/r/P007_Algebra_IndentityElement.R)
 
 ## TODO
 * None
