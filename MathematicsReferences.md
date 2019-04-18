@@ -14,6 +14,8 @@ MATLAB, Octave, Python & R
 * [Cross References - Numerical Analysis & Statistics - MATLAB, Octave, Python NumPy, R and Julia](http://hyperpolyglot.org/numerical-analysis)
 * [Comparison Cheatsheet - MATLAB, Octave, Python and Julia](https://cheatsheets.quantecon.org/)
 
+Mathematics
+===========
 ### Mathematics References
 * Linear Algebra
     - [Linear Algebra - Khan Academy](https://www.khanacademy.org/math/linear-algebra): Linear algebra basics.
@@ -26,6 +28,8 @@ MATLAB, Octave, Python & R
     - Mathematical Methods in the Physical Sciences [3e, 2006, John Wiley] by Mary L Boas - Chapter 3.
     - Introduction to Linear Algebra [5e, 2016, Wellesley-Cambridge] by Gilbert Strang.
 
+Statistics
+==========
 ### Statistics References
 * Topic
     - [Write Here](#): Write here.
