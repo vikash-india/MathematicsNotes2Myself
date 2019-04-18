@@ -1,62 +1,64 @@
 <project name="MathematicsNotes2Myself"
          default="build"
-         basedir="/home/vikash/Personal/Workspace/MathematicsNotes2Myself/">
+         basedir="../../../MathematicsNotes2Myself">
 
     <description>Convert LaTeX code to images</description>
 
     <property file="${basedir}/util/build/build.properties"/>
 
     <target name="clean"
-            depends="clean.latex, clean.numbers"
-            description="Clean equations and numbers images."/>
+            depends="clean.mathematics, clean.statistics"
+            description="Clean generated images from latex code under mathematics and statistics."/>
 
     <target name="build"
-            depends="build.latex, build.numbers"
-            description="Convert LaTeX equations and numbers code to images."/>
+            depends="build.mathematics, build.statistics"
+            description="Convert LaTeX code to images under under mathematics and statistics."/>
 
-    <target name="clean.latex"
-            description="Clean equations images.">
+    <target name="clean.mathematics"
+            description="Clean mathematics images.">
         <delete>
-            <fileset dir="${latex.equations.target.dir}" includes="**/*.png"/>
+            <fileset dir="${latex.src.dir.mathematics.01.basics}/images" includes="**/*.png"/>
+            <!-- TODO: Add Mathematics directories above this line! -->
         </delete>
     </target>
 
-    <target name="clean.numbers"
+    <target name="clean.statistics"
             description="Clean numbers images.">
         <delete>
-            <fileset dir="${latex.numbers.target.dir}" includes="**/*.png"/>
+            <fileset dir="${latex.src.dir.statistics.01.basics}/images" includes="**/*.png"/>
+            <!-- TODO: Add Statistics directories above this line! -->
         </delete>
     </target>
 
-    <target name="build.latex"
-            description="Convert LaTeX equations code to images.">
-        <apply executable="tex2im" failonerror="true" dir="${latex.equations.src.dir}">
+    <target name="build.mathematics"
+            description="Convert LaTeX code to images under mathematics.">
+        <apply executable="tex2im" failonerror="true" dir="${latex.src.dir.mathematics.01.basics}">
             <arg value="-o"/>
             <targetfile/>
 
-            <fileset dir="${latex.equations.src.dir}">
+            <fileset dir="${latex.src.dir.mathematics.01.basics}">
                 <include name="**/*.tex"/>
                 <exclude name="**/*Template*"/>
             </fileset>
             <mapper type="regexp"
                     from="(.*)\.tex"
-                    to="${latex.equations.target.dir}/\1.png"/>
+                    to="${latex.src.dir.mathematics.01.basics}/images/\1.png"/>
         </apply>
     </target>
 
-    <target name="build.numbers"
-            description="Convert LaTeX numbers code to images.">
-        <apply executable="tex2im" failonerror="true" dir="${latex.numbers.src.dir}">
+    <target name="build.statistics"
+            description="Convert LaTeX code to images under statistics.">
+        <apply executable="tex2im" failonerror="true" dir="${latex.src.dir.statistics.01.basics}">
             <arg value="-o"/>
             <targetfile/>
 
-            <fileset dir="${latex.numbers.src.dir}">
+            <fileset dir="${latex.src.dir.statistics.01.basics}">
                 <include name="**/*.tex"/>
                 <exclude name="**/*Template*"/>
             </fileset>
             <mapper type="regexp"
                     from="(.*)\.tex"
-                    to="${latex.numbers.target.dir}/\1.png"/>
+                    to="${latex.src.dir.statistics.01.basics}/images/\1.png"/>
         </apply>
     </target>
 </project>
