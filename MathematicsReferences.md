@@ -1,21 +1,4 @@
-# Description: Mathematics References
-
-MATLAB, Octave, Python & R
-==========================
-### Online Interpreter
-* [Online Interpreter - Python 2.7 - Repl.it](https://repl.it/languages/python)
-* [Online Interpreter - Python 3 - Repl.it](https://repl.it/languages/python3)
-* [Online Interpreter - Python and R](https://cdn.datacamp.com/dcl-react-prod/example.html)
-* [Online Interpreter - Octave - Rextester](http://rextester.com/l/octave_online_compiler)
-* [Online Interpreter - LaTeX - Overleaf](https://www.overleaf.com/project)
-
-### MATLAB, Octave, Python & R References
-* [Cross References - MATLAB, Octave, Python and R](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
-* [Cross References - Numerical Analysis & Statistics - MATLAB, Octave, Python NumPy, R and Julia](http://hyperpolyglot.org/numerical-analysis)
-* [Comparison Cheatsheet - MATLAB, Octave, Python and Julia](https://cheatsheets.quantecon.org/)
-
-### MATLAB, Octave, Python & R Books
-* None
+# Description: Mathematics & Statistics References
 
 Mathematics
 ===========
@@ -37,6 +20,23 @@ Statistics
 * None
 
 ### Statistics Books
+* None
+
+MATLAB, Octave, Python & R
+==========================
+### Online Interpreter
+* [Online Interpreter - Python 2.7 - Repl.it](https://repl.it/languages/python)
+* [Online Interpreter - Python 3 - Repl.it](https://repl.it/languages/python3)
+* [Online Interpreter - Python and R](https://cdn.datacamp.com/dcl-react-prod/example.html)
+* [Online Interpreter - Octave - Rextester](http://rextester.com/l/octave_online_compiler)
+* [Online Interpreter - LaTeX - Overleaf](https://www.overleaf.com/project)
+
+### MATLAB, Octave, Python & R References
+* [Cross References - MATLAB, Octave, Python and R](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
+* [Cross References - Numerical Analysis & Statistics - MATLAB, Octave, Python NumPy, R and Julia](http://hyperpolyglot.org/numerical-analysis)
+* [Comparison Cheatsheet - MATLAB, Octave, Python and Julia](https://cheatsheets.quantecon.org/)
+
+### MATLAB, Octave, Python & R Books
 * None
 
 ### TODO
