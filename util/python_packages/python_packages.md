@@ -1,5 +1,4 @@
-# Description: List of Packages Uses In The Project
-
+# Description: List of Python Packages Used in the Project
 
 ### List of Python 2.7 Packages
 ```
