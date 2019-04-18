@@ -18,6 +18,8 @@
             description="Clean mathematics images.">
         <delete>
             <fileset dir="${latex.src.dir.mathematics.01.basics}/images" includes="**/*.png"/>
+            <fileset dir="${latex.src.dir.mathematics.02.linera.algebra}/images" includes="**/*.png"/>
+
             <!-- TODO: Add Mathematics directories above this line! -->
         </delete>
     </target>
@@ -26,6 +28,7 @@
             description="Clean numbers images.">
         <delete>
             <fileset dir="${latex.src.dir.statistics.01.basics}/images" includes="**/*.png"/>
+
             <!-- TODO: Add Statistics directories above this line! -->
         </delete>
     </target>
@@ -44,6 +47,20 @@
             <mapper type="regexp"
                     from="(.*)\.tex"
                     to="${latex.src.dir.mathematics.01.basics}/images/\1.png"/>
+        </apply>
+
+        <apply executable="tex2im" failonerror="true">
+            <arg value="-o"/>
+            <targetfile/>
+
+            <fileset dir="${latex.src.dir.mathematics.02.linera.algebra}">
+                <include name="**/*.tex"/>
+                <exclude name="**/*Template*"/>
+            </fileset>
+
+            <mapper type="regexp"
+                    from="(.*)\.tex"
+                    to="${latex.src.dir.mathematics.02.linera.algebra}/images/\1.png"/>
         </apply>
 
         <!-- TODO: Add apply nodes for Mathematics directories above this line! -->
