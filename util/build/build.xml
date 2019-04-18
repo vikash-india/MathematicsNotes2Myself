@@ -32,7 +32,7 @@
 
     <target name="build.mathematics"
             description="Convert LaTeX code to images under mathematics.">
-        <apply executable="tex2im" failonerror="true" dir="${latex.src.dir.mathematics.01.basics}">
+        <apply executable="tex2im" failonerror="true">
             <arg value="-o"/>
             <targetfile/>
 
@@ -40,6 +40,7 @@
                 <include name="**/*.tex"/>
                 <exclude name="**/*Template*"/>
             </fileset>
+
             <mapper type="regexp"
                     from="(.*)\.tex"
                     to="${latex.src.dir.mathematics.01.basics}/images/\1.png"/>
@@ -48,7 +49,7 @@
 
     <target name="build.statistics"
             description="Convert LaTeX code to images under statistics.">
-        <apply executable="tex2im" failonerror="true" dir="${latex.src.dir.statistics.01.basics}">
+        <apply executable="tex2im" failonerror="true">
             <arg value="-o"/>
             <targetfile/>
 
