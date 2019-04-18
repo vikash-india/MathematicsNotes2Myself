@@ -17,13 +17,5 @@
     - Please Eat McDonald’s After School.
     - People Eat More Donuts After School.
 
-## Number Charts
-* None
-
-## Code
-* Octave Code: None
-* Python Code: None
-* R Code: None
-
 ## TODO
 * None

@@ -32,14 +32,6 @@
 * The written form is a way to write numbers using only words. 
 * Example: The number 7229 in written form is seven thousand, two hundred twenty-nine. 
 
-## Number Charts
-* None
-
-## Code
-* Octave Code: None
-* Python Code: None
-* R Code: None
-
 ## TODO
 * Program to write a number in written form.
 * Program to write a number in expanded form.

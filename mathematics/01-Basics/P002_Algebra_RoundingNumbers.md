@@ -43,13 +43,5 @@
     - Rounding 341 to the nearest hundred will yield 300.
     - Rounding 350 to the nearest hundred will yield 400.
 
-## Number Charts
-* None
-
-## Code
-* Octave Code: [Rounding Numbers](../../code/octave/P001_Algebra_RoundingNumbers.m)
-* Python Code: [Rounding Numbers](../../code/python/P001_Algebra_RoundingNumbers.py)
-* R Code: [Rounding Numbers](../../code/r/P001_Algebra_RoundingNumbers.R)
-
 ## TODO
 * Program to round up a number (Say 341) to the nearest hundred (should give 400).

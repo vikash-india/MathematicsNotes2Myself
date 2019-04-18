@@ -5,11 +5,11 @@
 * Left-Distributive: Given a set S and two binary operators ∗ and + on S, we say that the operation ∗ is 
   left-distributive over + if
   
-    ![Left Distributive](../../code/latex/equations/images/P006_Algebra_DistributiveProperty_01_LeftDistributive.png)
+    ![Left Distributive](latex/images/P006_Algebra_DistributiveProperty_01_LeftDistributive.png)
 * Right Distributive: Given a set S and two binary operators ∗ and + on S, we say that the operation ∗ is 
   is right-distributive over + if
 
-    ![Right Distributive](../../code/latex/equations/images/P006_Algebra_DistributiveProperty_02_RightDistributive.png)
+    ![Right Distributive](latex/images/P006_Algebra_DistributiveProperty_02_RightDistributive.png)
 * Distributive: The operation * is distributive over + if it is left-distributive as well as 
   right-distributive.
   
@@ -23,23 +23,15 @@
 ### Distributive Property Examples
 * An example of distributive
 
-    ![Left Distributive Example](../../code/latex/equations/images/P006_Algebra_DistributiveProperty_03_LeftDistributiveExample.png)
+    ![Left Distributive Example](latex/images/P006_Algebra_DistributiveProperty_03_LeftDistributiveExample.png)
     
-    ![Right Distributive Example](../../code/latex/equations/images/P006_Algebra_DistributiveProperty_04_RightDistributiveExample.png)
+    ![Right Distributive Example](latex/images/P006_Algebra_DistributiveProperty_04_RightDistributiveExample.png)
 
 * An example of right-distributive "only" is division since it is not commutative. In this case, left-distributivity does not apply
 
-    ![Left Distributive Example](../../code/latex/equations/images/P006_Algebra_DistributiveProperty_05_LeftDistributiveExample.png)
+    ![Left Distributive Example](latex/images/P006_Algebra_DistributiveProperty_05_LeftDistributiveExample.png)
 
-    ![Right Distributive Example](../../code/latex/equations/images/P006_Algebra_DistributiveProperty_06_RightDistributiveExample.png)
+    ![Right Distributive Example](latex/images/P006_Algebra_DistributiveProperty_06_RightDistributiveExample.png)
     
-## Number Charts
-* None
-
-## Code
-* Octave Code: None
-* Python Code: None
-* R Code: None
-
 ## TODO
 * None

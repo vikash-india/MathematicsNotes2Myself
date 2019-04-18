@@ -5,10 +5,10 @@
 Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 * An element e of S is called an left inverse of b if
 
-    ![Left Inverse](../../code/latex/equations/images/P008_Algebra_InverseElement_01_LeftInverse.png)
+    ![Left Inverse](latex/images/P008_Algebra_InverseElement_01_LeftInverse.png)
 * An element e of S is called an right inverse of a if
 
-    ![Right Inverse](../../code/latex/equations/images/P008_Algebra_InverseElement_02_RightInverse.png)
+    ![Right Inverse](latex/images/P008_Algebra_InverseElement_02_RightInverse.png)
 * If an element x is both a left inverse and a right inverse of y, then x is called a two-sided inverse, or simply 
   an inverse, of y. 
 
@@ -23,14 +23,6 @@ Let (S, ∗) is a set S with a binary operation ∗ on it. Then
 * The multiplicative inverse of a number a is the number that, when multiplied to a, yields multiplicative identity, 1.
 * The multiplicative inverse is also known as reciprocal.
 * The multiplicative inverse of 5 is 1/5 since 5 * (1/5) = 1.
-
-## Number Charts
-* None
-
-## Code
-* Octave Code: [Inverse Element](../../code/octave/P008_Algebra_InverseElement.m)
-* Python Code: [Inverse Element](../../code/python/P008_Algebra_InverseElement.py)
-* R Code: [Inverse Element](../../code/r/P008_Algebra_InverseElement.R)
 
 ## TODO
 * None
