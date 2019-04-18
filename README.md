@@ -2,30 +2,20 @@
 
 About Project
 =============
-The MathematicsNotes2Myself contains theoretical notes for
+The MathematicsNotes2Myself contains my theoretical notes for the following,
 1. Mathematics
 2. Statistics
-3. Data Analysis
+3. Data Science
 
-It also contains code related to the theoretical notes in following languages,
-1. Python 
+It also contains relevant code in following languages,
+1. Python
 2. R
 3. Octave
-4. LaTeX for Typesetting
+4. LaTeX for Typesetting Equations
 
-Online Interpreter
-==================
-- [Repl.it for Python 2.7](https://repl.it/languages/python)
-- [Repl.it for Python 3](https://repl.it/languages/python3)
-- [R-Fiddle for R](http://www.r-fiddle.org/#/)
-- [Rextester for Octave](http://rextester.com/l/octave_online_compiler)
-- [ShareLaTeX for LaTeX](https://www.sharelatex.com/)
-
-Online Resources
-================
-- [Cross References - MATLAB, Octave, Python and R](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
-- [Cross References - Numerical Analysis & Statistics - MATLAB, Octave, Python NumPy, R and Julia](http://hyperpolyglot.org/numerical-analysis)
-- [Comparison Cheatsheet - MATLAB, Octave, Python and Julia](https://cheatsheets.quantecon.org/)
+Mathematics References
+======================
+* [Mathematics References](MathematicsReferences.md)
 
 ### Render HTML Files Directly from GitHub Repository
 Use rawgit.com
@@ -55,12 +45,10 @@ http://htmlpreview.github.com/?https://github.com/vikash-india/MathematicsNotes2
 
 Feedback
 ========
-Please share your feedback about this project through any of the following communication medium.
-
-* Website     : http://vikash.zingzingbar.com
+Please share your feedback about this project
 * Twitter     : https://twitter.com/vikash_kmc 
 * LinkedIn    : http://www.linkedin.com/in/vikashkmc
 * GitHub      : https://github.com/vikash-india
 * Facebook    : https://www.facebook.com/vikash.kmc
-* Google+     : https://plus.google.com/108582967282529388419
 * Email       : vikash.kmc@gmail.com
+* Website     : http://vikash.zingzingbar.com
