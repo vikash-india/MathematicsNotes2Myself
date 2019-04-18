@@ -45,6 +45,8 @@
                     from="(.*)\.tex"
                     to="${latex.src.dir.mathematics.01.basics}/images/\1.png"/>
         </apply>
+
+        <!-- TODO: Add apply nodes for Mathematics directories above this line! -->
     </target>
 
     <target name="build.statistics"
@@ -61,5 +63,7 @@
                     from="(.*)\.tex"
                     to="${latex.src.dir.statistics.01.basics}/images/\1.png"/>
         </apply>
+
+        <!-- TODO: Add apply nodes for Statistics directories above this line! -->
     </target>
 </project>
