@@ -1,4 +1,4 @@
-# Description: WriteHere
+# Description: Divisibility
 
 # Write Code Here
 

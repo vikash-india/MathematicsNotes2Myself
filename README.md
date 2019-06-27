@@ -1,7 +1,6 @@
 # Mathematics Notes 2 Myself
 
-About Project
-=============
+### About Project
 The MathematicsNotes2Myself contains my theoretical notes for the following,
 1. Mathematics
 2. Statistics
@@ -13,15 +12,12 @@ It also contains relevant code in following languages,
 3. Octave
 4. LaTeX for Typesetting Equations
 
-Mathematics & Statistics References
-===================================
+### Mathematics & Statistics References
 * [Mathematics References](MathematicsReferences.md)
 * [Mathematics Terminologies](MathematicsTerminologies.md)
 
-Miscellaneous
-=============
 ### Render HTML Files Directly from GitHub Repository
-Use rawgit.com
+* Use rawgit.com
 ```
 # NOTE: Replace `raw.githubusercontent.com` with `rawgit.com` in the GitHub raw file URL.
 
@@ -35,7 +31,7 @@ https://raw.githubusercontent.com/vikash-india/MathematicsNotes2Myself/master/ma
 https://rawgit.com/vikash-india/MathematicsNotes2Myself/master/mathematics/concrete_mathematics/P000_Template.html
 ```
 
-Use htmlpreview.github.com
+* Use htmlpreview.github.com
 ```
 # NOTE: Prefix `http://htmlpreview.github.com/?` to any GitHub HTML file URL.
 
@@ -46,8 +42,7 @@ https://github.com/vikash-india/MathematicsNotes2Myself/blob/master/mathematics/
 http://htmlpreview.github.com/?https://github.com/vikash-india/MathematicsNotes2Myself/blob/master/mathematics/concrete_mathematics/P000_Template.html
 ```
 
-Feedback
-========
+### Feedback
 Please share your feedback about this project
 * Twitter     : https://twitter.com/vikash_kmc 
 * LinkedIn    : http://www.linkedin.com/in/vikashkmc
