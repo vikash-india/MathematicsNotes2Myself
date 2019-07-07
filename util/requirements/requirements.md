@@ -1,12 +1,31 @@
-# Description: List of Python Packages Used in the Project
+# Description: Python Environment for the Project
 
-### List of Python 2.7 Packages
+### Python Virtual Environment
+* Create virtual environment `MathematicsNotes2Myself` for this project.
+* MathematicsNotes2Myself is a Python 3 virtual environment.
 ```
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install ipython
-pip install patsy
-pip install pandas
-pip install sympy
+mkvirtualenv --no-site-packages MathematicsNotes2Myself
 ```
+
+### Python Packages
+* This is a list of Python modules needed for this project.
+* The `requirements.txt` contains the complete list including the dependencies.
+```
+pip install matplotlib          # For visualisations
+pip install sympy               # For algebra
+```
+
+### Python Requirement File
+```
+# Generate Requirements File
+workon MathematicsNotes2Myself
+pip freeze > requirements.txt
+
+# Install From Requirements File
+workon MathematicsNotes2Myself
+pip install -r requirements.txt
+```
+
+### TODO
+* None
+
