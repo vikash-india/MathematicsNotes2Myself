@@ -48,8 +48,6 @@
 
 ![](images/sin-flu.jpg)
 
-
-
 ![](images/sixty-four-watermelons.jpg)
 
 ![](images/sum-of-series.png)
@@ -59,3 +57,5 @@
 ![](images/wife-of-pi.jpg)
 
 ![](images/zero-to-eight.jpg)
+
+![](images/mathswise-stages-of-life.jpg)
